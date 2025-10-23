@@ -1,0 +1,21 @@
+node_modules
+dist
+build
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Git and misc
+.git
+.gitignore
+Dockerfile
+README.md
