@@ -21,33 +21,23 @@ cd personna-based-app
 ```
 
 
-2. **Adding Environment File**:
-
-```bash
-cd backend
-touch .env
-```
-
-3. **Add Following Content in .env**:
+2. **Add Following Content in .env**:
 
 ```
-# Port on which the backend server will run
-PORT=5000
-
 # OpenAI API Key for chat responses
-OPENAI_API_KEY=your_openai_api_key_here
+OPENAI_API_KEY="add your openai key"
 ```
-4. **Run Following Docker Command**:
+3. **Run Following Docker Command**:
 
 ```bash
 cd ..
 ```
-5. **Run Following Docker Command**:
+4. **Run Following Docker Command**:
 
 ```bash
 docker compose up --build
 ```
-6. **Run on Chrome Browser**:
+5. **Run on Chrome Browser**:
 
 ```
 https://localhost:8080
